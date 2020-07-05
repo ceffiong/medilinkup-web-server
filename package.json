@@ -1,0 +1,31 @@
+{
+  "name": "medilinkup-api",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API project for MediLinkUp Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "note",
+    "restful",
+    "api"
+  ],
+  "author": "Charles Effiong",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "morgan": "^1.10.0",
+    "node-pre-gyp": "^0.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
