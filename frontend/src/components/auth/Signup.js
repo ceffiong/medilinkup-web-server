@@ -411,7 +411,7 @@ const Signup = () => {
                             <p style={{marginBottom: 20}}>By clicking Sign In, you agree to our Terms of Use and our Privacy Policy.</p>
                             <Button fullWidth={true} variant="contained" color="primary" onClick={handleSignUp}>Sign Up</Button>
                             <p style={{marginBottom: 20, fontWeight: "bold"}}>Forgot your password?</p>
-                            <p onClick={() => console.log("what")} style={{marginBottom: 30, fontSize: "medium", fontWeight: "bold"}}>
+                            <p style={{marginBottom: 30, fontSize: "medium", fontWeight: "bold"}}>
                                 
                                 <Link href="#" onClick={() => history.push("/login")}>
                                 Already have an account? Login here!
